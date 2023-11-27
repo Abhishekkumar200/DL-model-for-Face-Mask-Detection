@@ -51,9 +51,9 @@ unparse function, xmltodict also enables repeated trips back to XML.
 
 As there are 3 classes in target, we can use 3 colors for cascading the face.
 
-* $${\textcolor{red}{Red}}$$ ➜ without_mask
-* $${\textcolor{green}{Green}}$$ ➜ with_mask
-* $${\textcolor{yellow}{Yellow}}$$ ➜ mask_weared_incorrect
+* Red ➜ without_mask
+* Green ➜ with_mask
+* Yellow ➜ mask_weared_incorrect
 
 For visualizing the annotated objects in a dataset of images with associated XML annotation 
 files. We defines a function face_cas that takes an image filename as input, reads the 
@@ -179,7 +179,9 @@ model have been made based on the following considerations:**
 ## Training the Mode
 We trained our model for 50 epochs on the training datasets and we get the following 
 results:
+
 `Epoch 50 Loss: 0.0093`
+
 At the 50th epoch the training loss is 0.0093 and training accuracy is 99.6842 %.
 
 ## Testing the model
